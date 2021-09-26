@@ -53,6 +53,7 @@ fetch("https://inshortsapi.vercel.app/news?category="+val)
             let link = document.createElement('a');
             let ndiv = document.createElement('div');
             img.setAttribute("src", data.data[i].imageUrl);
+            img.setAttribute("alt","img");
             h.setAttribute("class", "head")
             p2.setAttribute('class', 'para');
             ndiv.setAttribute('class', 'kid1')
